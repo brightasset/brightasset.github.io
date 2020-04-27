@@ -1,0 +1,1737 @@
+@charset "utf-8";
+/*****************************************************/
+/*** 共通設定 *****************************************/
+/*****************************************************/
+
+/*** 記事内タイトル サブ ***/
+.ctt_title_sub {
+  padding: 0.5em;
+  margin-top: 3em !important;
+  margin-bottom: 1.2em;
+  color: #333333;
+  background: #faf8f6;
+  border-left: solid 5px #b9b6b3;
+}
+
+
+/*** footer社名 ***/
+.l-license>div {
+  padding: 20px 15px !important;
+}
+
+
+/*** 右カラム・バナー ***/
+.l-sub__banner {
+  margin: 15px 0;
+}
+
+/*** 右カラム・会社概要ページ、margin無効用 ***/
+.l-sub .l-sub__frame>div {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/*** 右カラム・会社概要ページ、個人情報保護方針 ***/
+.l-sub__frame .lsl_block_inner {
+  margin: 0;
+  background-color: #f1ece7 !important;
+}
+
+/*** 右カラム・ファンドの特徴 ***/
+.l-sub__frame .lsf2_block_inner {
+  background-color: #f1ece7 !important;
+}
+
+/*** ブライト・スマートトレーダー（EA） ***/
+.l-sub__frame .lsf3_block_inner {
+  background-color: #f1ece7 !important;
+}
+.l-sub__frame .l-sub__list .l-sub__list__switch {
+  right: 10px;
+}
+
+
+/*** フォームページ用、footer ***/
+
+.footer_2 {
+
+  display: none;
+  /*
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+*/
+}
+
+footer .footer_name {
+  padding: 30px 15px;
+  background: #f1ece7;
+}
+
+footer .footer_name .footer_name_inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer .footer_name .footer_name_inner .fn_inner1 {
+
+}
+
+footer .footer_name .footer_name_inner .fn_inner1 span:first-child {
+  font-weight: bold;
+}
+
+footer .footer_name .footer_name_inner .fn_inner1 span:last-child {
+  font-size: 0.8em;
+}
+
+footer .footer_name .footer_name_inner .fn_inner2 {
+  line-height: 1.4;
+}
+
+footer .footer_name .footer_name_inner .fn_inner2 .fi_tel {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+footer .footer_name .footer_name_inner .fn_inner2 .fi_tel img {
+  width: 26px;
+  height: 26px;
+}
+
+footer .footer_co {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.7em;
+  background: #e2d9cf;
+}
+
+
+/*** 記事内画像の制御 ***/
+.l-main .img_pic_001 {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.l-main .img_pic_001 img {
+  max-width: 600px;
+}
+
+.l-main .img_w_line {
+  border: solid 1px #ccc;
+}
+
+
+
+/*****************************************************/
+/*** 右カラムマイページ用 ******************************/
+/*****************************************************/
+.l-sub__mypage {
+  overflow: hidden;
+  padding: 15px;
+  margin: 0 0 15px 0;
+  background: #fff3eb;
+  border: solid 1px #fbc4a2;
+}
+.l-sub__mypage a:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+
+.l-sub__mypage .lsm_block1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 15px 0;
+}
+
+.l-sub__mypage .lsm_block1 .lsm_login {
+  position: relative;
+  top: 7px;
+}
+
+.l-sub__mypage .lsm_block1 .lsm_support {
+
+}
+.l-sub__mypage .lsm_block1 .lsm_support a {
+  display: block;
+  width: 140px;
+  background: #fff;
+  border: solid 1px #dacaba;
+  text-decoration: none;
+  text-align: center;
+  padding: 7px 0;
+}
+
+
+.l-sub__mypage .lsm_block2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-sub__mypage .lsm_block2 .lsm_fund_mypage {
+  margin: 0 0 15px 0;
+}
+.l-sub__mypage .lsm_block2 .lsm_fund_mypage a {
+  display: block;
+  padding: 10px 0 10px 10px;
+  position: relative;
+  background: #fff;
+  color: #ea5902;
+  text-decoration: none;
+  border-top: solid 1px #ea5902;
+  border-bottom: solid 1px #ea5902;
+  border-left: solid 15px #ea5902;
+  border-right: solid 1px #ea5902;
+}
+.l-sub__mypage .lsm_block2 .lsm_fund_mypage a::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f105";
+  position: absolute;
+  top: 56%;
+  right: 10px;
+  margin-top: -12px;
+}
+
+.l-sub__mypage .lsm_block2 .lsm_fx_mypage {
+
+}
+.l-sub__mypage .lsm_block2 .lsm_fx_mypage a {
+  display: block;
+  padding: 10px 0 10px 10px;
+  position: relative;
+  background: #fff;
+  color: #ea5902;
+  text-decoration: none;
+  border-top: solid 1px #ea5902;
+  border-bottom: solid 1px #ea5902;
+  border-left: solid 15px #ea5902;
+  border-right: solid 1px #ea5902;
+}
+.l-sub__mypage .lsm_block2 .lsm_fx_mypage a::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f105";
+  position: absolute;
+  top: 56%;
+  right: 10px;
+  margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+/*****************************************************/
+/*** FX自動売買システムを利用した運用 *******************/
+/*****************************************************/
+.ba_auto_sys .read {
+  margin: 20px 0;
+}
+
+
+/*** ba_as_blcok01 ***/
+.ba_auto_sys .ba_as_blcok01 {
+  overflow: hidden;
+  background: #f8f8f8;
+}
+
+.ba_auto_sys .ba_as_blcok01 .title {
+  width: 100%;
+  padding: 13px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #ec7022;
+}
+
+.ba_auto_sys .ba_as_blcok01 .sys_inner {
+  float: left;
+  width: 315px;
+  padding: 25px 0;
+  margin: 0 30px;
+}
+
+.ba_auto_sys .ba_as_blcok01 .sys_inner .sub_title {
+  text-align: center;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+
+/*** ba_as_blcok02 ***/
+.ba_auto_sys .ba_as_blcok02 {
+  margin: 50px 0 0 0;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.ba_auto_sys .ba_as_blcok02 .title {
+  max-width: 450px;
+  padding: 13px 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  background: #edc525;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.ba_auto_sys .ba_as_blcok02 .sb_p03 img {
+  width: 193px !important;
+}
+
+
+/*** ba_as_blcok03 ***/
+.ba_auto_sys .ba_as_blcok03 {
+  margin: 30px 0 0 0;
+  background: url("../../../images/ba_system_pic05.png") no-repeat 50% 47%;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box {
+  overflow: hidden;
+  display: flex;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner {
+  /* float: left; */
+  width: 323px;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi01 {
+  border: solid 1px #ffe9ce;
+  background: #fff6ec;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi02 {
+  border: solid 1px #d3e7f5;
+  background: #f2f7fb;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner .title {
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi01 .title {
+  border-bottom: solid 5px #ffa132;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi02 .title {
+  border-bottom: solid 5px #4daaeb;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner .text ul.cp_list {
+	padding: 0 0.2em;
+  margin: 0;
+	list-style-type:none;
+}
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner .text ul.cp_list li {
+	position:relative;
+	padding: 0em 0.3em 0.5em 1.3em;
+}
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner .text ul.cp_list li:before {
+  position: absolute;
+  content: '';
+  top: 0.3em;
+  left: 0.2em;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 9px;
+}
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi01 .text ul.cp_list li:before {
+  border-color: transparent transparent transparent #ffa132;
+}
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi02 .text ul.cp_list li:before {
+  border-color: transparent transparent transparent #4daaeb;
+}
+
+
+.ba_auto_sys .ba_as_blcok03 .fund_block {
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  background: #fff7da;
+}
+
+.ba_auto_sys .ba_as_blcok03 .fund_block .text {
+  padding: 20px 15px;
+}
+
+.ba_auto_sys .ba_as_blcok03 .fund_block .text .t01 {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #734f00;
+}
+
+.ba_auto_sys .ba_as_blcok03 .fund_block .text .t02 {
+  max-width: 430px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+
+
+/*****************************************************/
+/*** FXの口座開設の流れ *******************************/
+/*****************************************************/
+.ba_account .notes_block {
+  width: 100%;
+  margin: 30px 0 70px 0;
+  border: solid 1px #dd1818;
+}
+
+.ba_account .notes_block .title {
+  padding: 8px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  background: #dd1818;
+  color: #ffffff;
+}
+.ba_account .notes_block .title br {
+  display: none;
+}
+
+.ba_account .notes_block .text {
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+.ba_account .notes_block .text .t01 {
+  padding: 5px 0 10px 0;
+  text-align: center;
+  color: #dd1818;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ba_account .notes_block .text .nt_cation {
+  margin: 0 0 0 21px;
+}
+
+
+/*** step_block ***/
+.step_block {
+  position:relative;
+  margin: 18px 0 80px 0;
+  padding: 0 0 20px 0;
+  background: #e7f5f8;
+}
+
+.step_block:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #e7f5f8 transparent transparent transparent;
+  border-width: 35px 60px 0 60px;
+}
+
+
+.step_block .title_block {
+  height: 46px;
+  width: 70%;
+  margin: 0 auto;
+  background: #6cb0bd;
+  color: #ffffff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  position: relative;
+  top: -23px;
+}
+
+.step_block .title_block .number {
+  float: left;
+  font-size: 1.8em;
+  font-weight: bold;
+  position: relative;
+  left: 18px;
+  top: 3px;
+}
+
+.step_block .title_block .title {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  position: relative;
+  top: 11px;
+}
+.step_block .title_block .title br {
+  display: none;
+}
+
+.step_block .text {
+  clear: both;
+  padding: 0 20px 0 20px;
+}
+
+.step_block .open_bt {
+  margin: 15px 0 0 0;
+}
+
+.step_block .open_bt a {
+  display: block;
+  width: 250px;
+  padding: 12px 0;
+  margin: 0 auto;
+  background: #ea5902;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 25px;
+}
+.step_block .open_bt a:hover {
+  background: #ff6e16;
+}
+
+/* btn_block */
+.btn_block .open_bt a {
+  display: block;
+  width: 250px;
+  padding: 12px 0;
+  margin: 0 auto;
+  background: #ea5902;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 25px;
+}
+.btn_block .open_bt a:hover {
+  background: #ff6e16;
+}
+
+
+
+/*****************************************************/
+/*** 本人確認書類について *****************************/
+/*****************************************************/
+.pid_content {
+
+}
+
+.pid_content .pid_title {
+  margin: 35px 0 20px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.pid_content .pid_title_sub {
+  padding: 0 0 3px 0;
+  border-bottom: solid 3px #ede8e1;
+}
+
+.pid_content .notes_block {
+  width: 100%;
+  margin: 30px 0 70px 0;
+  border: solid 1px #dd1818;
+}
+
+.pid_content .notes_block .title {
+  padding: 8px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  background: #dd1818;
+  color: #ffffff;
+}
+.pid_content .notes_block .title br {
+  display: none;
+}
+
+.pid_content .notes_block .text {
+  padding: 0 15px;
+  font-size: 0.9em;
+}
+
+.pid_content .notes_block .text .t01 {
+  padding: 5px 0 10px 0;
+  text-align: center;
+  color: #dd1818;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pid_content .text {
+  margin: 15px 0;
+}
+
+.pid_content .text .red {
+  color: #dd1818;
+}
+
+.pid_content .text .u_line {
+  text-decoration: underline;
+}
+
+.pid_content .text p {
+
+}
+
+.pid_content .text02 {
+
+}
+.pid_content .text02 .t_sub {
+  font-weight: bold;
+  color: #cc7c0d;
+}
+
+.pid_content .text02 .t_line {
+  text-decoration: underline;
+}
+
+.pid_content .t01 {
+  font-size: 0.9em;
+}
+
+.pid_content .t01 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+}
+
+.pid_content .t01 tbody {
+
+}
+
+.pid_content .t01 tr {
+  height: 55px;
+}
+
+.pid_content .t01 td {
+  padding: 10px 25px;
+  border-bottom: solid 1px #ccc;
+  line-height: 1.3;
+}
+
+.pid_content .t01 .tt {
+  border-right: solid 1px #ccc;
+}
+
+.pid_content .t01 .ta_01 {
+  background: #f1f1f1;
+  font-weight: bold;
+  color: #545454;
+}
+
+.pid_content .send_block {
+  padding: 15px;
+  background: #f1ece7;
+}
+
+.pid_content .send_block .text {
+
+}
+
+.pid_content .send_block .address_inner {
+  overflow: hidden;
+  background: #fff;
+}
+
+.pid_content .send_block .address_inner .title_sub01 {
+  float: left;
+  vertical-align: middle;
+  padding: 0 0 20px 20px;
+}
+
+.pid_content .send_block .address_inner .title_sub01 img {
+  padding: 0 10px 0 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+.pid_content .send_block .address_inner .title_sub01 span {
+  position: relative;
+  top: 20px;
+}
+
+.pid_content .send_block .address_inner .title_sub02 {
+  margin: 0 0 0 50px;
+  float: left;
+  position: relative;
+  top: 17px;
+}
+
+.pid_content .send_block .address_inner .title_sub02 img {
+
+}
+
+.pid_content .send_block .address_inner .ts02_cont_inner {
+
+}
+
+.pid_content .send_block .address_inner .ts02_cont_inner a {
+  position: relative;
+  display: block;
+  width: 155px;
+  padding: 6px 0 7px 10px;
+  text-decoration: none;
+  background: #ed7228;
+  color: #fff;
+}
+.pid_content .send_block .address_inner .ts02_cont_inner a::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f105";
+  position: absolute;
+  top: 59%;
+  right: 10px;
+  margin-top: -12px;
+}
+.pid_content .send_block .address_inner .ts02_cont_inner a:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+
+.pid_content .send_block .address_inner .title_sub03 {
+  padding: 15px;
+  font-weight: bold;
+}
+
+.pid_content .send_block .address_inner .title_sub03 span {
+  font-size: 1.3em;
+}
+
+
+
+/*****************************************************/
+/*** お客様サポート ***********************************/
+/*****************************************************/
+
+.support_content .send_block {
+
+}
+
+.support_content .qa_block {
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.support_content .qa_block .qa_inner {
+  float: left;
+  width: 285px;
+  padding: 30px 15px;
+  border: solid 1px #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: url("../../../images/fq_back.png");
+  background-repeat: no-repeat;
+  background-position: 230px 4px;
+}
+.support_content .qa_block .qa_inner a:hover {
+
+}
+
+.support_content .qa_block .q01 {
+  margin: 0 20px 0 0;
+  background-color: #ffdcc6;
+  border: solid 1px #e0a987;
+}
+.support_content .qa_block .q01:hover {
+  background-color: #f3c7ab;
+}
+
+.support_content .qa_block .q02 {
+  background-color: #c6e7ff;
+  border: solid 1px #87b3d4;
+}
+.support_content .qa_block .q02:hover {
+  background-color: #add5f3;
+}
+
+.support_content .send_block .address_inner .title_sub03 {
+  padding: 0 15px 15px 15px;
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel {
+  padding: 0 0 20px 0;
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel img {
+  padding: 0 10px 0 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel span {
+  position: relative;
+  top: 20px;
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel_sub {
+  font-weight: normal;
+}
+
+.support_content .send_block .address_inner .title_sub03 .time {
+  margin: 10px 0 0 0;
+}
+
+
+
+
+/*****************************************************/
+/*** FX取引概要 **************************************/
+/*****************************************************/
+.overview_content {
+
+}
+
+.overview_content .ov_block {
+  margin: 30px 0 0 0;
+  font-size: 0.8em;
+}
+
+.overview_content .ov_block table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+}
+
+.overview_content td {
+  padding: 5px 10px;
+  border-bottom: solid 1px #ccc;
+  line-height: 1.3;
+}
+
+.overview_content .tt {
+  border-right: solid 1px #ccc;
+}
+
+
+
+
+
+/*****************************************************/
+/*** ファンドの特徴 ***********************************/
+/*****************************************************/
+.cf_sp_link_inner {
+  padding: 10px 15px;
+}
+
+.cf_sp_link_inner a {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background: #ffeade;
+  color: #000000 !important;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.cf_sp_link_inner .cfsli_number {
+  float: left;
+  width: 22px;
+  padding: 35px 24px;
+  font-family: "Impact";
+  color: #ffffff;
+  font-size: 2em;
+  background: #ed7228;
+}
+
+.cf_sp_link_inner .cfsli_inner {
+  float: left;
+  padding: 0.8em 0.5em;
+}
+
+.cf_sp_link_inner a:after {
+  font-family: "Font Awesome 5 Free";
+  /* content: "\f105"; */
+  position: absolute;
+  padding: 0em;
+  color: #ed7228;
+  font-weight: 900;
+  right: 1em;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cf_sp_link_inner .text_cation {
+  padding: 0 3px 0 0;
+  font-size: 10px;
+}
+
+.cf_sp_link_inner .text_small {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+
+
+/*****************************************************/
+/*** 優先劣後スキーム用 ********************************/
+/*****************************************************/
+.fund_scheme_text {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.fund_scheme_text .fct_inner .fct_block {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.fund_scheme_text .fct_inner .fct_block .fct_left {
+  float: left;
+  width: 90px;
+  padding: 10px;
+  margin: 0 15px 0 0;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.fund_scheme_text .fct_inner .fct_block .fct_right {
+  width: 340px;
+}
+
+.fund_scheme_text .fct_inner .fct_block .fctl01 {
+  background: #eb5902;
+}
+.fund_scheme_text .fct_inner .fct_block .fctl02 {
+  background: #f9af37;
+}
+
+
+
+/*****************************************************/
+/*** 開催予定のセミナー ********************************/
+/*****************************************************/
+.l-main .seminar_page_stitle {
+  padding: 8px 15px;
+  margin: 30px 0 15px 0;
+  background: #686d70;
+}
+.l-main .seminar_page_stitle h3 {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.l-main .sps_second {
+  margin: 60px 0 15px 0;
+}
+
+.l-main .clb_seminar_bt {
+  max-width: 280px;
+}
+
+
+/*****************************************************/
+/*** 会社案内 *****************************************/
+/*****************************************************/
+.c-block .ba_map {
+  margin: 30px 20px 5px 20px;
+}
+
+.c-block .ba_map img {
+  width: 100%;
+}
+
+.c-block .ba_map_cation {
+  margin: 0 20px 20px 20px;
+  font-size: 0.5em;
+  text-align: right;
+  color: #ccc;
+}
+
+
+
+/*****************************************************/
+/*** 現在募集中のファンド ******************************/
+/*****************************************************/
+.c-block .ct_block {
+  margin: 20px;
+}
+
+.c-block .ct_block a img {
+  position: relative;
+  top: -3px;
+}
+
+
+
+/*****************************************************/
+/*** コピア・ファンド説明会 ****************************/
+/*****************************************************/
+.seminar_close_block {
+  overflow: hidden;
+  margin: 30px 0 0 0;
+}
+
+.seminar_close_block .c-link-btn-off {
+  width: 360px;
+  padding: 21px 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #686d70;
+}
+
+.seminar_close_block .seminar_close_block_inner_text {
+  margin: 15px 0 0 0;
+}
+
+
+
+/******************** l-footer__gr_link ********************/
+.l-footer__gr_link {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.l-footer__gr_link a {
+
+}
+
+.l-footer__gr_link img {
+  margin: 5px;
+}
+
+
+
+/******************** header 共通修正 ********************/
+.l-header>nav {
+  height: 115px !important;
+  background-color: #ffffff !important;
+}
+
+.l-header .l-header__nav li {
+  height: 56px !important;
+}
+
+.l-header .l-header__nav li a {
+  line-height: 56px !important;
+}
+
+.l-header .l-header__nav li a br {
+  display: none;
+}
+
+.l-header {/* 追従ヘッダー用 */
+  position: unset !important;
+  height: 115px !important;
+  min-width: 1200px !important;
+}
+
+.l-header>div {
+  display: none !important;
+  /* height: 60px !important; */
+}
+
+.l-header__logo {
+  padding-top: 10px !important;
+  padding-left: 15px !important;
+}
+
+.l-header__logo img {
+  width: 300px !important;
+}
+
+.l-header__logo_sub {
+  padding: 10px 0 10px 15px;
+}
+
+.l-header__logo_sub img {
+  width: 300px;
+}
+
+.l-header .l-header__nav {
+  background: #ed7228;
+}
+
+.l-header__btns {
+  display: none;
+}
+
+.l-header__btns .li_first {
+  display: none;
+}
+
+.l-header .l-header__nav .li_first a::before {
+  content : none ;
+}
+
+.l-header+.l-category-header {
+  margin-top: 0 !important;
+}
+
+.l-header+.l-body {/* ヘッダー画像なしページ用 */
+  margin-top: 30px !important;
+}
+
+/*************** TOPページheader画像調整 ***************/
+.l-top-header {
+  min-width: 1200px !important;
+}
+
+.l-top-header.action .l-top-header__bg img {
+  transform: translateY(-56%) !important;
+}
+
+.l-top-link {
+  min-width: 1200px !important;
+}
+
+
+
+/******************** 追従header用 ********************/
+nav {
+  transition: .3s;
+}
+
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.is-hide {
+  transform: translateY(-100%);
+}
+
+
+
+
+
+/*****************************************************************************************************/
+/*** 768以下 *****************************************************************************************/
+/*****************************************************************************************************/
+@media screen and (max-width:768px) {
+
+
+/*****************************************************/
+/*** FX自動売買システムを利用した運用 *******************/
+/*****************************************************/
+.ba_auto_sys .read {
+  margin: 20px 10px;
+}
+
+.ba_auto_sys .ba_as_blcok01 .sys_inner {
+  float: left;
+  width: 315px;
+  padding: 17px 0;
+  margin: 0 30px;
+}
+
+.ba_auto_sys .ba_as_blcok01 .sys_inner .img {
+    text-align: center;
+}
+
+.ba_auto_sys .ba_as_blcok02 .title {
+  font-size: 1.3em;
+}
+
+.ba_auto_sys .ba_as_blcok02 .sub_pic img {
+  width: 100%;
+}
+
+
+.ba_auto_sys .ba_as_blcok03 {
+  margin: 20px 0 0 0;
+  padding: 0 15px;
+  background: url("../../../images/ba_system_pic05.png") no-repeat 50% 60%;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box {
+  flex-direction: column;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bb_inner {
+  width: auto;
+  margin: 0;
+}
+
+.ba_auto_sys .ba_as_blcok03 .ba_as_b_box .bbi01 {
+  margin: 0 0 20px 0;
+}
+
+.ba_auto_sys .ba_as_blcok03 .fund_block .title img {
+  width: 100%;
+}
+
+
+
+/*****************************************************/
+/*** FXの口座開設の流れ *******************************/
+/*****************************************************/
+.ba_account .notes_block {
+  border: none;
+  background: #fff1f1;
+}
+
+.ba_account .notes_block .title br {
+  display: inline;
+}
+
+.ba_account .notes_block .text .t01 {
+  font-size: 1.1em;
+}
+
+
+/*** step_block ***/
+.step_block .title_block {
+  width: 90%;
+}
+
+.step_block .title_block .title {
+  font-size: 1em;
+  line-height: 1.1;
+  top: 14px;
+}
+
+.step_block .title_block .title_sub {
+  top: 6px;
+}
+.step_block .title_block .title_sub br {
+  display: inline;
+}
+
+
+
+/*****************************************************/
+/*** 本人確認書類について *****************************/
+/*****************************************************/
+.pid_content {
+
+}
+
+.pid_content .pid_title {
+  padding: 0 0 5px 15px;
+  margin: 30px 0 20px 0;
+}
+
+.pid_content .pid_title_sub {
+}
+
+.pid_content .notes_block {
+  margin: 15px 0 30px 0;
+  border: none;
+  background: #fff1f1;
+}
+
+.pid_content .notes_block .title {
+
+}
+.pid_content .notes_block .title br {
+  display: inline;
+}
+
+.pid_content .notes_block .text {
+  padding: 0 0 15px 0;
+}
+
+.pid_content .notes_block .text .t01 {
+  font-size: 1.1em;
+}
+
+.pid_content .text {
+  margin: 15px;
+}
+
+.pid_content .text .red {
+
+}
+
+.pid_content .text .u_line {
+
+}
+
+.pid_content .text p {
+
+}
+
+.pid_content .text02 {
+  padding: 0 15px;
+}
+.pid_content .text02 .t_sub {
+
+}
+
+.pid_content .text02 .t_line {
+
+}
+
+.pid_content .t01 {
+  margin: 0 10px;
+}
+
+.pid_content .t01 table {
+
+}
+
+.pid_content .t01 tbody {
+
+}
+
+.pid_content .t01 tr {
+
+}
+
+.pid_content .t01 td {
+
+}
+
+.pid_content .t01 .tt {
+
+}
+
+.pid_content .t01 .ta_01 {
+
+}
+
+.pid_content .send_block {
+
+}
+
+.pid_content .send_block .text {
+
+}
+
+.pid_content .send_block .address_inner {
+
+}
+
+.pid_content .send_block .address_inner .title_sub01 {
+  clear: both;
+  padding: 0 0 15px 20px;
+}
+
+.pid_content .send_block .address_inner .title_sub01 img {
+
+}
+
+.pid_content .send_block .address_inner .title_sub02 {
+  clear: both;
+  margin: 0 0 5px 0;
+  position: unset;
+}
+
+.pid_content .send_block .address_inner .title_sub02 img {
+
+}
+
+.pid_content .send_block .address_inner .ts02_cont_inner {
+    margin: 0 0 15px 70px !important;
+}
+
+.pid_content .send_block .address_inner .title_sub03 {
+
+}
+
+.pid_content .send_block .address_inner .title_sub03 span {
+
+}
+
+
+
+/*****************************************************/
+/*** お客様サポート ***********************************/
+/*****************************************************/
+
+.support_content {
+
+}
+
+.support_content .send_block {
+
+}
+
+.support_content .qa_block {
+
+}
+
+.support_content .qa_block .qa_inner {
+  width: 250px;
+  background-position: 195px 4px;
+}
+.support_content .qa_block .qa_inner a:hover {
+
+}
+
+.support_content .qa_block .q01 {
+  margin: 0 0 20px 0;
+}
+.support_content .qa_block .q01:hover {
+
+}
+
+.support_content .qa_block .q02 {
+
+}
+.support_content .qa_block .q02:hover {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel img {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel span {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 .tel_sub {
+
+}
+
+.support_content .send_block .address_inner .title_sub03 .time {
+
+}
+
+
+/*****************************************************/
+/*** FX取引概要 **************************************/
+/*****************************************************/
+.overview_content .ov_block {
+  margin: 30px 5px 0 5px;
+}
+
+
+
+
+/*****************************************************/
+/*** ファンドの特徴 ***********************************/
+/*****************************************************/
+.cf_sp_link_inner {
+}
+
+.cf_sp_link_inner a {
+  flex-direction: column;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.cf_sp_link_inner .cfsli_number {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.cf_sp_link_inner .cfsli_inner {
+}
+
+.cf_sp_link_inner a:after {
+  color: #ffffff;
+  top: 26px;
+}
+
+.cf_sp_link_inner .text_cation {
+}
+
+.cf_sp_link_inner .text_small {
+}
+
+
+
+/*****************************************************/
+/*** 優先劣後スキーム用 ********************************/
+/*****************************************************/
+.fund_scheme_text {
+  display: block;
+}
+
+.fund_scheme_text .fct_inner {
+  padding: 0 10px;
+}
+
+.fund_scheme_text .fct_inner .fct_block {
+
+}
+
+.fund_scheme_text .fct_inner .fct_block .fct_left {
+  width: 110px;
+  margin: 0 10px 0 0;
+}
+
+.fund_scheme_text .fct_inner .fct_block .fct_right {
+
+}
+
+.fund_scheme_text .fct_inner .fct_block .fctl01 {
+
+}
+.fund_scheme_text .fct_inner .fct_block .fctl02 {
+
+}
+
+
+
+/*****************************************************/
+/*** コピア・ファンド説明会 ****************************/
+/*****************************************************/
+.seminar_close_block {
+  margin: 30px 15px 0 15px;
+}
+
+.seminar_close_block .c-link-btn-off {
+  width: 100%;
+  padding: 13px 0;
+}
+
+
+
+/******************** header 共通修正 ********************/
+.l-header>div {
+  display: block !important;
+}
+
+.l-header__logo {
+  padding-top: 15px !important;
+  padding-left: 15px !important;
+}
+
+.l-header__logo img {
+  width: 266px !important;
+}
+
+.l-header__btns {
+  display: block;
+}
+
+.l-header__btns .li_first {
+  position: relative;
+  display: inline-table;
+  vertical-align: top;
+  letter-spacing: normal;
+  width: 26px !important;
+  padding: 5px 10px 5px 0 !important;
+}
+.l-header__btns .li_first a {
+  display: table-cell;
+  padding-left: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #ea5902 !important;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.l-header__btns .li_first a::before {
+  content : none ;
+}
+
+.l-header {
+  min-width: auto !important;/* 追従ヘッダー用 */
+  height: 115px !important;
+}
+
+.l-header__btns {
+  width: 516px !important;
+  margin: 10px auto 0 auto !important;
+}
+
+.l-header+.l-category-header {
+  margin-top: 0 !important;
+}
+
+
+
+/*************** TOPページheader画像調整 ***************/
+.l-top-header {
+  min-width: initial !important;
+}
+
+.l-top-link {
+  min-width: initial !important;
+}
+
+
+
+/*** フォームページ用、footer ***/
+footer .footer_name .footer_name_inner {
+  display: block;
+}
+
+footer .footer_name .footer_name_inner .fn_inner1 {
+  margin: 0 0 15px 0;
+}
+
+
+
+}
+
+
+
+
+
+/*****************************************************************************************************/
+/*** 529px以下 *****************************************************************************************/
+/*****************************************************************************************************/
+@media screen and (max-width: 529px){
+
+
+/******************** header 共通修正 ********************/
+.l-header__btns {
+  width: 268px !important;/*メニューが4種のときは345pxにする*/
+}
+
+.l-header__btns li {
+  padding: 5px 3px !important;
+  width: 70px !important;
+}
+
+.l-header__btns li a {
+  font-size: 11px !important;
+}
+
+.l-header__btns li+li {
+  margin-left: 0 !important;
+}
+
+.l-header__btns li a::before {
+  display: none !important;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/*****************************************************************************************************/
+/*** 344px以下 *****************************************************************************************/
+/*****************************************************************************************************/
+@media screen and (max-width: 344px){
+
+/******************** header 共通修正 ********************/
+.l-header__logo img {
+  width: 221.6666666667px !important;
+}
+
+/*
+.l-header__btns .li_first {
+  display: none;
+}
+
+.l-header__btns {
+  width: 304px !important;
+}
+*/
+
+
+}
+
+
+
+
+
+/*****************************************************************************************************/
+/*** フォームページ用スタイル調整CSS *******************************************************************/
+/*****************************************************************************************************/
+
+/*** form_block ***/
+.form_block {
+  margin: -20px 0 0 0;
+}
+
+.form_block iframe {
+ max-height: unset !important;
+}
+
+
+.fb_fund iframe {
+  height: 2350px;
+}
+
+.fb_seminar iframe {
+  height: 2150px;
+}
+
+.fb_inquiry iframe {
+  height: 1750px;
+}
+
+
+@media screen and (max-width: 679px){
+
+  .fb_fund iframe {
+    height: 3350px;
+  }
+
+  .fb_seminar iframe {
+    height: 3300px;
+  }
+
+  .fb_inquiry iframe {
+    height: 2400px;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+
+  /*** header ***/
+  .lhl_form {
+    height: 40px !important;
+  }
+  .lhl_form img {
+    width: 195px !important;
+  }
+
+  .lhl_form .lhlf_homelink {
+    margin: 3px 20px 0 0 !important;
+  }
+
+}
